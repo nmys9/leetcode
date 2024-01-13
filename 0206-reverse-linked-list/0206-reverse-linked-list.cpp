@@ -20,7 +20,7 @@ public:
             prev=curr;
             curr=nxt;
         }
-        
-        return prev;
+        head=prev;
+        return head;
     }
 };
