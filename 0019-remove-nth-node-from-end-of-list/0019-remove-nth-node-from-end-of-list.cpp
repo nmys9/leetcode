@@ -24,8 +24,6 @@ public:
             head=head->next;
             delete temp;
             return head;
-        }else{
-
         }
         ListNode *pp=nullptr;
         ListNode *del=head;
