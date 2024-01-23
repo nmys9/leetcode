@@ -6,8 +6,9 @@ public:
         
     }
     void push(int x) {
+        int s=q1.size();
         q1.push(x);
-        int s=q1.size()-1;
+        
         while(s--){
             q1.push(q1.front());
             q1.pop();
