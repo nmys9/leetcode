@@ -12,7 +12,6 @@ public:
         ListNode *s=head;
         ListNode *f=head;
         while( f!=nullptr && f->next!=nullptr ){
-            
             s=s->next;
             f=f->next->next;
             if(f==s)return true;
